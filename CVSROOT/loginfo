@@ -24,4 +24,6 @@
 #DEFAULT (echo ""; id; echo %s; date; cat) >> $CVSROOT/CVSROOT/commitlog
 # or
 #DEFAULT (echo ""; id; echo %{sVv}; date; cat) >> $CVSROOT/CVSROOT/commitlog
-DEFAULT ( cd $CVSROOT/CVSROOT ; co -u cvs-loginfo.sh > /dev/null 2>&1 ; ./cvs-loginfo.sh $USER %s %V %v )
+#DEFAULT ( cd $CVSROOT/CVSROOT ; co -u cvs-loginfo.sh > /dev/null 2>&1 ; ./cvs-loginfo.sh $USER %s %V %v )
+CVSROOT $CVSROOT/CVSROOT/syncmail %{sVv} nnorwitz@users.sourceforge.net ericnewton@users.sourceforge.net
+DEFAULT $CVSROOT/CVSROOT/syncmail %{sVv} pychecker-checkins@lists.sourceforge.net
