@@ -1891,3 +1891,25 @@ Modified Files:
 Log Message:
 make cfg which vars can be ignored, 'fix' exceptions.* __init__ not called (it's a hack)
 ------------------------------------
+Tue May 29 11:01:33 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+add fixme
+------------------------------------
+Tue May 29 18:29:44 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+add fix deriving from class by alias name
+------------------------------------
