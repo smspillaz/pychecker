@@ -1784,3 +1784,55 @@ Log Message:
 * Don't produce unused local variable warning if variable name == '_'
 
 ------------------------------------
+Sun May 27 08:31:02 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+Catch internal errors "gracefully" and turn into a warning
+Fix exception on code like:  func(kw=(a < b))
+
+------------------------------------
+Sun May 27 08:31:03 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+Catch internal errors "gracefully" and turn into a warning
+Fix exception on code like:  func(kw=(a < b))
+
+------------------------------------
+Sun May 27 08:31:03 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test15 
+Log Message:
+Catch internal errors "gracefully" and turn into a warning
+Fix exception on code like:  func(kw=(a < b))
+
+------------------------------------
+Sun May 27 08:31:03 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test15.py 
+Log Message:
+Catch internal errors "gracefully" and turn into a warning
+Fix exception on code like:  func(kw=(a < b))
+
+------------------------------------
