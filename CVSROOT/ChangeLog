@@ -1913,3 +1913,684 @@ Modified Files:
 Log Message:
 add fix deriving from class by alias name
 ------------------------------------
+Tue May 29 18:49:59 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	VERSION setup.py 
+Log Message:
+bump version for release
+------------------------------------
+Tue May 29 19:23:21 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+fix grammar
+------------------------------------
+Tue May 29 19:45:56 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+add def arg var not used warning & from XXX import YYY re-import warning
+------------------------------------
+Wed May 30 05:30:18 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	checker.py warn.py 
+Log Message:
+handle system exit/ctrl-c (ie, really exit)
+------------------------------------
+Sun Jun  3 19:21:16 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	VERSION setup.py 
+Log Message:
+update version
+------------------------------------
+Sun Jun  3 19:22:31 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	test15.py 
+Log Message:
+make test a little harder
+------------------------------------
+Sun Jun  3 19:24:15 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG KNOWN_BUGS TODO 
+Log Message:
+don't produce unused global (module) warnings when using module in class variables or parameters
+------------------------------------
+Sun Jun  3 19:24:15 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	checker.py warn.py 
+Added Files:
+	function.py 
+Log Message:
+don't produce unused global (module) warnings when using module in class variables or parameters
+------------------------------------
+Sun Jun  3 19:24:15 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test16 
+Log Message:
+don't produce unused global (module) warnings when using module in class variables or parameters
+------------------------------------
+Sun Jun  3 19:24:15 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test16.py 
+Log Message:
+don't produce unused global (module) warnings when using module in class variables or parameters
+------------------------------------
+Sun Jun  3 19:32:56 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	__init__.py 
+Log Message:
+fix partial sentance
+------------------------------------
+Mon Jun  4 14:32:34 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+Add check that __init__ returns no values
+------------------------------------
+Mon Jun  4 14:32:34 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+Add check that __init__ returns no values
+------------------------------------
+Mon Jun  4 14:32:34 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test17.py 
+Log Message:
+Add check that __init__ returns no values
+------------------------------------
+Mon Jun  4 14:32:34 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test17 
+Log Message:
+Add check that __init__ returns no values
+------------------------------------
+Mon Jun  4 14:34:00 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+don't think you can get warnings in class scoped-code (only module, functions, and methods)
+------------------------------------
+Mon Jun  4 16:21:26 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG pycheckrc 
+Log Message:
+add experimental support for checking consistent return values
+------------------------------------
+Mon Jun  4 16:21:26 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test18.py 
+Log Message:
+add experimental support for checking consistent return values
+------------------------------------
+Mon Jun  4 16:21:26 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py warn.py 
+Log Message:
+add experimental support for checking consistent return values
+------------------------------------
+Tue Jun  5 16:09:03 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO 
+Log Message:
+check for right # of args to object ctor if in same module (still need to do other modules)
+------------------------------------
+Tue Jun  5 16:09:04 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+check for right # of args to object ctor if in same module (still need to do other modules)
+------------------------------------
+Tue Jun  5 16:09:04 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test18 
+Log Message:
+check for right # of args to object ctor if in same module (still need to do other modules)
+------------------------------------
+Tue Jun  5 16:09:04 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	test18.py 
+Log Message:
+check for right # of args to object ctor if in same module (still need to do other modules)
+------------------------------------
+Tue Jun  5 16:46:30 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO 
+Log Message:
+check for right # of args to object construction (in other modules) and function calls to other modules
+------------------------------------
+Tue Jun  5 16:46:30 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+check for right # of args to object construction (in other modules) and function calls to other modules
+------------------------------------
+Tue Jun  5 16:46:30 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test19 
+Log Message:
+check for right # of args to object construction (in other modules) and function calls to other modules
+------------------------------------
+Tue Jun  5 16:46:31 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test19.py 
+Log Message:
+check for right # of args to object construction (in other modules) and function calls to other modules
+------------------------------------
+Wed Jun  6 16:04:08 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	test17.py 
+Log Message:
+make return results consistent, test return results in other files
+------------------------------------
+Wed Jun  6 16:05:07 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Stack.py 
+Log Message:
+add method to check if stack value is None (using global None or implicit on return)
+------------------------------------
+Wed Jun  6 16:05:34 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	OP.py 
+Log Message:
+check for jump forward command
+------------------------------------
+Wed Jun  6 16:11:31 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO 
+Log Message:
+get check of consistent function return values working pretty decently
+------------------------------------
+Wed Jun  6 16:11:31 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+get check of consistent function return values working pretty decently
+------------------------------------
+Wed Jun  6 16:11:31 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test20.py test21.py 
+Log Message:
+get check of consistent function return values working pretty decently
+------------------------------------
+Wed Jun  6 16:11:31 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test20 test21 
+Log Message:
+get check of consistent function return values working pretty decently
+------------------------------------
+Thu Jun  7 15:19:08 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	test6.py 
+Log Message:
+use std library for test, update real expected results, not one w/bugs
+------------------------------------
+Thu Jun  7 15:19:08 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Modified Files:
+	test6 
+Log Message:
+use std library for test, update real expected results, not one w/bugs
+------------------------------------
+Thu Jun  7 15:27:47 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+handle multiple branches to same location properly
+------------------------------------
+Sun Jun 10 19:56:27 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+add check when using method as an attribute
+------------------------------------
+Wed Jun 13 17:04:10 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO setup.py 
+Log Message:
+install script to /usr/local/bin to invoke PyChecker
+------------------------------------
+Fri Jun 15 12:10:22 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	function.py 
+Log Message:
+deal with files w/ \r and src files that don't end with \n
+------------------------------------
+Fri Jun 15 12:11:22 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+add a todo item for jabronis like eric that try to re-use method names in same class :-)
+------------------------------------
+Fri Jun 15 12:49:26 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+add unable to import
+------------------------------------
+Wed Jun 20 19:31:33 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO 
+Log Message:
+Fix: from XXX import YYY ; from XXX import ZZZ causing re-import warning
+------------------------------------
+Wed Jun 20 19:31:34 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	OP.py warn.py 
+Log Message:
+Fix: from XXX import YYY ; from XXX import ZZZ causing re-import warning
+------------------------------------
+Thu Jun 21 16:21:24 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO 
+Log Message:
+start checking format strings
+------------------------------------
+Thu Jun 21 16:21:24 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Stack.py warn.py 
+Log Message:
+start checking format strings
+------------------------------------
+Thu Jun 21 16:21:24 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test22.py 
+Log Message:
+start checking format strings
+------------------------------------
+Thu Jun 21 16:21:24 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test22 
+Log Message:
+start checking format strings
+------------------------------------
+Fri Jun 22 10:16:04 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	index.html 
+Log Message:
+add some more problems that checker finds
+------------------------------------
+Sat Jun 23 18:02:25 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Stack.py 
+Log Message:
+Be anal about checking that the value in data[0] is a string.
+Got a bug report/patch from RedHat, but can't duplicate problem
+	(w/current version or 0.5).
+Patch seems safe, though, so I'm checking it in.
+Code that supposedly causes checker to crash:
+
+	foo = ["foo", "bar", None].index('mbr')
+
+
+------------------------------------
+Sat Jun 23 18:10:04 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+update warning msg
+------------------------------------
+Sun Jun 24 15:53:54 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	test_check.sh 
+Log Message:
+fix whitespace
+------------------------------------
+Sun Jun 24 15:56:19 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Modified Files:
+	test22 
+Log Message:
+oops, need to update expected results when update test input
+------------------------------------
+Sun Jun 24 15:57:05 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO 
+Log Message:
+Add check when using method as an attribute (if self.method and x == y:)
+------------------------------------
+Sun Jun 24 15:57:05 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+Add check when using method as an attribute (if self.method and x == y:)
+------------------------------------
+Sun Jun 24 15:57:33 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test23 
+Log Message:
+Add check when using method as an attribute (if self.method and x == y:)
+------------------------------------
+Sun Jun 24 15:57:33 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test23.py 
+Log Message:
+Add check when using method as an attribute (if self.method and x == y:)
+------------------------------------
+Sun Jun 24 17:48:53 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Stack.py 
+Log Message:
+get test6 to work properly (from XXX import YYY)
+------------------------------------
+Sun Jun 24 17:52:33 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	README index.html 
+Log Message:
+fix doc for format string checks
+------------------------------------
+Sun Jun 24 18:03:19 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	MAINTAINERS 
+Log Message:
+alphabetize other contributors, add a bunch of people
+------------------------------------
+Sun Jun 24 18:11:45 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	VERSION setup.py CHANGELOG 
+Log Message:
+prepare for release
+------------------------------------
