@@ -1,0 +1,11 @@
+Sat Apr  7 13:16:58 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	README index.html 
+Log Message:
+add note that we should work with Python 1.5.2 and 2.0
+------------------------------------
