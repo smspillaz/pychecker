@@ -3672,3 +3672,836 @@ Modified Files:
 Log Message:
 add date to 0.7
 ------------------------------------
+Tue Jul 17 04:40:23 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	index.html 
+Log Message:
+oops, update link to current release dl
+------------------------------------
+Tue Jul 17 04:56:15 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+spell function write
+------------------------------------
+Tue Jul 17 19:44:01 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	setup.py VERSION 
+Log Message:
+get .bat to work on win32, bump version after release
+------------------------------------
+Tue Jul 17 19:53:35 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	setup.py 
+Log Message:
+i like this version better
+------------------------------------
+Thu Jul 19 18:28:11 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Modified Files:
+	test1 test13 test14 test17 test18 test19 test2 test20 test21 
+	test22 test23 test24 test25 test3 test31 test32 test33 test34 
+	test4 test5 test7 test8 test9 
+Log Message:
+update tests for : after line number and spelling fuction write
+------------------------------------
+Thu Jul 19 19:37:22 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py warn.py 
+Log Message:
+get basic warning suppression working
+------------------------------------
+Fri Jul 20 07:45:02 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+oops, we want default (split on any whitespace), don't specify string, else all chars are necessary to split
+------------------------------------
+Fri Jul 20 07:45:56 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO 
+Log Message:
+change long arg processing:  --arg sets arg to true, --no-arg sets arg to false
+------------------------------------
+Fri Jul 20 07:45:56 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py 
+Log Message:
+change long arg processing:  --arg sets arg to true, --no-arg sets arg to false
+------------------------------------
+Fri Jul 20 07:45:56 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test35 
+Log Message:
+change long arg processing:  --arg sets arg to true, --no-arg sets arg to false
+------------------------------------
+Fri Jul 20 07:45:56 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test35.py 
+Log Message:
+change long arg processing:  --arg sets arg to true, --no-arg sets arg to false
+------------------------------------
+Fri Jul 20 11:05:44 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+make checker produce no warnings when run on itself
+------------------------------------
+Fri Jul 20 11:17:21 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+don't require long options to start w/--, we can add it for them
+------------------------------------
+Fri Jul 20 14:57:35 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+fix tests since adding : after line #
+------------------------------------
+Fri Jul 20 14:57:49 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+found some bugs
+------------------------------------
+Fri Jul 20 14:59:00 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+only pop the config if there is main code (otherwise, there's nothing to pop and get an exception)
+------------------------------------
+Fri Jul 20 14:59:23 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py 
+Log Message:
+ignore __warningregistry__ for newer pythons
+------------------------------------
+Fri Jul 20 15:30:54 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test36.py 
+Log Message:
+fix var used before set for **kw args
+------------------------------------
+Fri Jul 20 15:30:54 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test36 
+Log Message:
+fix var used before set for **kw args
+------------------------------------
+Fri Jul 20 15:31:31 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	function.py 
+Log Message:
+fix var used before set for **kw args
+------------------------------------
+Fri Jul 20 16:15:58 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+use symbolic for __init__, man i use that a lot, fix warning when deriving from Exception() and instantiating
+------------------------------------
+Fri Jul 20 16:15:58 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO CHANGELOG 
+Log Message:
+use symbolic for __init__, man i use that a lot, fix warning when deriving from Exception() and instantiating
+------------------------------------
+Fri Jul 20 21:26:52 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO 
+Log Message:
+Fix warning when doing:  from X import Y, Z; ie, pop off stack when doing a STORE_NAME
+------------------------------------
+Fri Jul 20 21:26:52 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+Fix warning when doing:  from X import Y, Z; ie, pop off stack when doing a STORE_NAME
+------------------------------------
+Fri Jul 20 21:37:08 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	test36.py 
+Log Message:
+make sure that from X import Y, Z does not produce a warning
+------------------------------------
+Fri Jul 20 21:54:48 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+filter out warnings when files are different (ie, from X import ...)
+------------------------------------
+Fri Jul 20 21:54:48 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO CHANGELOG 
+Log Message:
+filter out warnings when files are different (ie, from X import ...)
+------------------------------------
+Fri Jul 20 21:54:48 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	import37.py test37.py 
+Log Message:
+filter out warnings when files are different (ie, from X import ...)
+------------------------------------
+Fri Jul 20 21:54:48 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test37 
+Log Message:
+filter out warnings when files are different (ie, from X import ...)
+------------------------------------
+Sat Jul 21 08:15:59 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+make sure we have a stack element to delete
+------------------------------------
+Sat Jul 21 08:16:20 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+return from main() if there are no files to process
+------------------------------------
+Sat Jul 21 08:19:34 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+add -F/--rcfile to generate a .pycheckrc file
+------------------------------------
+Sat Jul 21 08:19:34 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py 
+Log Message:
+add -F/--rcfile to generate a .pycheckrc file
+------------------------------------
+Sat Jul 21 08:23:30 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	index.html 
+Log Message:
+don't put version # to dl, that way i don't have to modify the index for each release, it means one extra click, oh well
+------------------------------------
+Sat Jul 21 08:41:43 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+Fix checking files in standard library before local file
+------------------------------------
+Sat Jul 21 08:41:43 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO 
+Log Message:
+Fix checking files in standard library before local file
+------------------------------------
+Sat Jul 21 08:43:56 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+oops, return 0 (normal) from main if no  files
+------------------------------------
+Sat Jul 21 10:18:18 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO CHANGELOG pycheckrc 
+Log Message:
+Add check that derived method has same signature as base class
+------------------------------------
+Sat Jul 21 10:18:18 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test38.py 
+Log Message:
+Add check that derived method has same signature as base class
+------------------------------------
+Sat Jul 21 10:18:18 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test38 
+Log Message:
+Add check that derived method has same signature as base class
+------------------------------------
+Sat Jul 21 10:18:18 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py function.py warn.py 
+Log Message:
+Add check that derived method has same signature as base class
+------------------------------------
+Sat Jul 21 10:41:55 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO pycheckrc 
+Log Message:
+Add option to ignore all warnings in standard library
+------------------------------------
+Sat Jul 21 10:41:55 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py warn.py 
+Log Message:
+Add option to ignore all warnings in standard library
+------------------------------------
+Sat Jul 21 12:46:03 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+refactor code into seprate funcs for:  getBlackList, getStandardLibrary
+------------------------------------
+Sat Jul 21 14:21:04 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO pycheckrc 
+Log Message:
+* Fine grain control of warnings/config options on a per module/class/method
+* prioritize TODO a bit
+* use copy, instead of deepcopy, it should be ok (and faster)
+* factor out removeWarnings() and getSuppression()
+
+------------------------------------
+Sat Jul 21 14:21:04 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	pycheckrc test39.py 
+Log Message:
+* Fine grain control of warnings/config options on a per module/class/method
+* prioritize TODO a bit
+* use copy, instead of deepcopy, it should be ok (and faster)
+* factor out removeWarnings() and getSuppression()
+
+------------------------------------
+Sat Jul 21 14:21:05 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py checker.py warn.py 
+Log Message:
+* Fine grain control of warnings/config options on a per module/class/method
+* prioritize TODO a bit
+* use copy, instead of deepcopy, it should be ok (and faster)
+* factor out removeWarnings() and getSuppression()
+
+------------------------------------
+Sat Jul 21 14:21:05 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test39 
+Log Message:
+* Fine grain control of warnings/config options on a per module/class/method
+* prioritize TODO a bit
+* use copy, instead of deepcopy, it should be ok (and faster)
+* factor out removeWarnings() and getSuppression()
+
+------------------------------------
+Sat Jul 21 17:58:41 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	test_check.sh CHANGELOG TODO 
+Log Message:
+add check for unused method/function args
+------------------------------------
+Sat Jul 21 17:58:41 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test40.py 
+Log Message:
+add check for unused method/function args
+------------------------------------
+Sat Jul 21 17:58:41 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test40 
+Log Message:
+add check for unused method/function args
+------------------------------------
+Sat Jul 21 17:58:41 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py function.py warn.py 
+Log Message:
+add check for unused method/function args
+------------------------------------
+Sat Jul 21 18:05:32 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+disable return type checking for constants, it is too broken
+------------------------------------
+Sat Jul 21 18:19:16 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	pycheckrc 
+Log Message:
+add check for unused method/function args
+------------------------------------
+Sat Jul 21 18:25:28 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	pycheckrc 
+Log Message:
+oops forgot to doc suppressions use in sample .pycheckrc file
+------------------------------------
+Sat Jul 21 18:39:19 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	README index.html 
+Log Message:
+update for suppressions, etc
+------------------------------------
+Sat Jul 21 18:39:19 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py 
+Log Message:
+update for suppressions, etc
+------------------------------------
+Sat Jul 21 19:10:56 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	.cvsignore 
+Log Message:
+ignore my test files
+------------------------------------
+Sat Jul 21 19:14:22 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO README index.html pycheckrc 
+Log Message:
+check if function/class/method names are reused
+------------------------------------
+Sat Jul 21 19:14:22 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py warn.py 
+Log Message:
+check if function/class/method names are reused
+------------------------------------
+Sat Jul 21 19:14:22 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test41 
+Log Message:
+check if function/class/method names are reused
+------------------------------------
+Sat Jul 21 19:14:22 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test41.py 
+Log Message:
+check if function/class/method names are reused
+------------------------------------
+Sun Jul 22 05:56:56 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	README index.html 
+Log Message:
+move checker -h paragraph
+------------------------------------
+Sun Jul 22 07:47:20 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO CHANGELOG 
+Log Message:
+* Fix method argument checks when calling base class methods
+* Fix error msg to base constructors (msg count was wrong)
+* get reference from identifier better than before (_getFunction)
+
+------------------------------------
+Sun Jul 22 07:47:20 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	test31.py 
+Log Message:
+* Fix method argument checks when calling base class methods
+* Fix error msg to base constructors (msg count was wrong)
+* get reference from identifier better than before (_getFunction)
+
+------------------------------------
+Sun Jul 22 07:47:20 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	checker.py function.py warn.py 
+Log Message:
+* Fix method argument checks when calling base class methods
+* Fix error msg to base constructors (msg count was wrong)
+* get reference from identifier better than before (_getFunction)
+
+------------------------------------
+Sun Jul 22 07:47:20 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Modified Files:
+	test25 
+Log Message:
+* Fix method argument checks when calling base class methods
+* Fix error msg to base constructors (msg count was wrong)
+* get reference from identifier better than before (_getFunction)
+
+------------------------------------
+Sun Jul 22 08:22:39 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+move some imports to where they are used, gotta break up this module.
+------------------------------------
+Sun Jul 22 09:12:23 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+remove commented out debug, oops
+------------------------------------
+Sun Jul 22 09:50:37 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO 
+Log Message:
+Fix access to builtin module attributes
+------------------------------------
+Sun Jul 22 09:50:37 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+Fix access to builtin module attributes
+------------------------------------
+Sun Jul 22 09:50:37 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test42 
+Log Message:
+Fix access to builtin module attributes
+------------------------------------
+Sun Jul 22 09:50:37 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test42.py 
+Log Message:
+Fix access to builtin module attributes
+------------------------------------
