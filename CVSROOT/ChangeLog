@@ -3661,3 +3661,14 @@ Modified Files:
 Log Message:
 bump version
 ------------------------------------
+Mon Jul 16 18:41:22 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+add date to 0.7
+------------------------------------
