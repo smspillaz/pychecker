@@ -1836,3 +1836,58 @@ Catch internal errors "gracefully" and turn into a warning
 Fix exception on code like:  func(kw=(a < b))
 
 ------------------------------------
+Sun May 27 13:27:04 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+break out processing for import/comparisons into a func
+------------------------------------
+Sun May 27 13:34:16 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+ignore line count for main func, it is not really relevant
+------------------------------------
+Sun May 27 13:53:33 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	index.html README 
+Log Message:
+update doc to explain how to send bug reports
+------------------------------------
+Tue May 29 09:18:59 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py Config.py 
+Log Message:
+make cfg which vars can be ignored, 'fix' exceptions.* __init__ not called (it's a hack)
+------------------------------------
+Tue May 29 09:18:59 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	pycheckrc CHANGELOG 
+Log Message:
+make cfg which vars can be ignored, 'fix' exceptions.* __init__ not called (it's a hack)
+------------------------------------
