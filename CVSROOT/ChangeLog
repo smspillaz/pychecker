@@ -2605,3 +2605,746 @@ Modified Files:
 Log Message:
 ignore last return if preceded by a raise, don't throw exception when module lines don't have the key of import_from, do a better job of checking branches when doing:  return x > 1 and y < 5
 ------------------------------------
+Wed Jun 27 03:42:11 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+update changelog with 0.6.1
+------------------------------------
+Wed Jun 27 04:23:34 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	VERSION setup.py 
+Log Message:
+prepare for next version
+------------------------------------
+Wed Jun 27 11:55:30 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+2 fixes from Andy Anderson
+  * Check if the classObject really has the attribute before declaring
+    the attribute doesn't exist
+  * Get the right file name for the error msg when doing a from X import *
+
+------------------------------------
+Wed Jun 27 12:02:28 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG MAINTAINERS 
+Log Message:
+fix wrong filename when doing from X import *
+------------------------------------
+Wed Jun 27 12:02:28 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	import24.py test24.py 
+Log Message:
+fix wrong filename when doing from X import *
+------------------------------------
+Wed Jun 27 12:02:28 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Modified Files:
+	test3 
+Added Files:
+	test24 
+Log Message:
+fix wrong filename when doing from X import *
+------------------------------------
+Thu Jun 28 04:57:51 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	KNOWN_BUGS 
+Log Message:
+doc problem w/using exec
+------------------------------------
+Thu Jun 28 15:26:49 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Modified Files:
+	test1 test7 
+Log Message:
+update err msgs for "No attribute" to say if it should be a class or module attr
+------------------------------------
+Thu Jun 28 15:28:16 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Modified Files:
+	test9 
+Log Message:
+update err msgs for "No attribute" to say if it should be a class or module attr, fix check for module attrs, add check for static class attrs
+------------------------------------
+Thu Jun 28 15:28:16 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+update err msgs for "No attribute" to say if it should be a class or module attr, fix check for module attrs, add check for static class attrs
+------------------------------------
+Thu Jun 28 15:28:16 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+update err msgs for "No attribute" to say if it should be a class or module attr, fix check for module attrs, add check for static class attrs
+------------------------------------
+Thu Jun 28 15:29:07 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test25 
+Log Message:
+update err msgs for "No attribute" to say if it should be a class or module attr, fix check for module attrs, add check for static class attrs
+------------------------------------
+Thu Jun 28 15:29:07 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test25.py 
+Log Message:
+update err msgs for "No attribute" to say if it should be a class or module attr, fix check for module attrs, add check for static class attrs
+------------------------------------
+Thu Jun 28 15:34:10 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+update
+------------------------------------
+Thu Jun 28 15:48:32 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+update, forgot to add bug from sf about not checking in lambdas
+------------------------------------
+Thu Jun 28 16:09:42 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+again, show the error from the correct file (caller which generates error, not func/module called)
+------------------------------------
+Thu Jun 28 16:09:42 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	import24.py test24.py 
+Log Message:
+again, show the error from the correct file (caller which generates error, not func/module called)
+------------------------------------
+Thu Jun 28 16:09:42 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Modified Files:
+	test19 test24 
+Log Message:
+again, show the error from the correct file (caller which generates error, not func/module called)
+------------------------------------
+Fri Jun 29 11:33:52 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+Fix check in format strings when using *s
+------------------------------------
+Fri Jun 29 11:33:52 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO CHANGELOG 
+Log Message:
+Fix check in format strings when using *s
+------------------------------------
+Fri Jun 29 19:51:31 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+Fix exception when class overrides __special__() methods and raise exception
+------------------------------------
+Fri Jun 29 19:52:43 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	setup.py 
+Log Message:
+update usage
+------------------------------------
+Fri Jun 29 19:54:41 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Modified Files:
+	test22 
+Log Message:
+Fix check in format strings when using *s
+------------------------------------
+Fri Jun 29 19:54:41 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	test22.py 
+Log Message:
+Fix check in format strings when using *s
+------------------------------------
+Fri Jun 29 19:56:03 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+Fix exception when class overrides __special__() methods and raise exception
+------------------------------------
+Fri Jun 29 19:56:15 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	MAINTAINERS 
+Log Message:
+update
+------------------------------------
+Sun Jul  1 20:25:58 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+update
+------------------------------------
+Mon Jul  2 04:12:26 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+Fix inability to evaluate { 1: 'a' } inline, process STORE_SUBSCR
+------------------------------------
+Mon Jul  2 04:12:26 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	OP.py warn.py 
+Log Message:
+Fix inability to evaluate { 1: 'a' } inline, process STORE_SUBSCR
+------------------------------------
+Mon Jul  2 04:12:26 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test26 
+Log Message:
+Fix inability to evaluate { 1: 'a' } inline, process STORE_SUBSCR
+------------------------------------
+Mon Jul  2 04:12:26 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test26.py 
+Log Message:
+Fix inability to evaluate { 1: 'a' } inline, process STORE_SUBSCR
+------------------------------------
+Mon Jul  2 12:02:10 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+ignore - when looking for %*s, etc
+------------------------------------
+Mon Jul  2 13:53:44 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	MAINTAINERS TODO 
+Log Message:
+update
+------------------------------------
+Mon Jul  2 14:12:49 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO CHANGELOG 
+Log Message:
+Check in lambda functions for module/variable use
+------------------------------------
+Mon Jul  2 14:12:49 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+Check in lambda functions for module/variable use
+------------------------------------
+Mon Jul  2 14:12:49 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test27.py test28.py test29.py test30.py 
+Log Message:
+Check in lambda functions for module/variable use
+------------------------------------
+Mon Jul  2 14:12:49 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test27 test28 test29 test30 
+Log Message:
+Check in lambda functions for module/variable use
+------------------------------------
+Thu Jul  5 05:01:27 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	OP.py warn.py 
+Log Message:
+Fix internal error when running python 2.1, when using a new op:  LOAD_DEREF
+------------------------------------
+Thu Jul  5 05:01:28 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+Fix internal error when running python 2.1, when using a new op:  LOAD_DEREF
+------------------------------------
+Thu Jul  5 08:07:52 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+Add config option to turn off warnings when returning None from __init__()
+------------------------------------
+Thu Jul  5 08:07:52 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py warn.py 
+Log Message:
+Add config option to turn off warnings when returning None from __init__()
+------------------------------------
+Thu Jul  5 08:08:02 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+update
+------------------------------------
+Thu Jul  5 08:11:46 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py 
+Log Message:
+oops, this needs to be set for tests
+------------------------------------
+Thu Jul  5 14:50:58 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO CHANGELOG 
+Log Message:
+add check if passing args to ctor w/o __init__()
+------------------------------------
+Thu Jul  5 14:50:58 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+add check if passing args to ctor w/o __init__()
+------------------------------------
+Thu Jul  5 14:50:58 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test31.py 
+Log Message:
+add check if passing args to ctor w/o __init__()
+------------------------------------
+Thu Jul  5 14:50:58 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test31 
+Log Message:
+add check if passing args to ctor w/o __init__()
+------------------------------------
+Thu Jul  5 15:11:57 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+Make 'self' configurable as the first argument to methods
+------------------------------------
+Thu Jul  5 15:11:57 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py Stack.py checker.py warn.py 
+Log Message:
+Make 'self' configurable as the first argument to methods
+------------------------------------
+Thu Jul  5 15:20:51 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py 
+Log Message:
+use -e not -S for --self param, so -S can be strict (tbd)
+------------------------------------
+Thu Jul  5 15:34:05 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	MAINTAINERS 
+Log Message:
+update
+------------------------------------
+Thu Jul  5 15:35:00 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py 
+Log Message:
+add -e/--errors option to warn about errors only
+------------------------------------
+Thu Jul  5 15:35:40 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+add -e/--errors option to warn about errors only
+------------------------------------
+Thu Jul  5 18:06:10 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py warn.py 
+Log Message:
+enable only the real checking of return values, not implicit/explicit, that dont work
+------------------------------------
+Thu Jul  5 18:06:10 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	test20.py 
+Log Message:
+enable only the real checking of return values, not implicit/explicit, that dont work
+------------------------------------
+Mon Jul  9 16:23:42 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG TODO 
+Log Message:
+add check for calling base class ctor
+------------------------------------
+Mon Jul  9 16:23:42 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test32.py 
+Log Message:
+add check for calling base class ctor
+------------------------------------
+Mon Jul  9 16:23:42 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test32 
+Log Message:
+add check for calling base class ctor
+------------------------------------
+Mon Jul  9 16:23:42 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+add check for calling base class ctor
+------------------------------------
+Mon Jul  9 16:27:36 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+improve format checking courtesy of Matt Wilson
+------------------------------------
+Mon Jul  9 16:27:36 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+improve format checking courtesy of Matt Wilson
+------------------------------------
+Mon Jul  9 16:27:36 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	test22.py 
+Log Message:
+improve format checking courtesy of Matt Wilson
+------------------------------------
+Mon Jul  9 16:27:36 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Modified Files:
+	test22 
+Log Message:
+improve format checking courtesy of Matt Wilson
+------------------------------------
+Mon Jul  9 16:41:54 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+more format checks
+------------------------------------
+Mon Jul  9 16:41:54 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	test22.py 
+Log Message:
+more format checks
+------------------------------------
+Mon Jul  9 16:41:54 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Modified Files:
+	test22 
+Log Message:
+more format checks
+------------------------------------
+Mon Jul  9 18:12:41 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+ignore return types we can't check, remove unused local var
+------------------------------------
