@@ -9,3 +9,141 @@ Modified Files:
 Log Message:
 add note that we should work with Python 1.5.2 and 2.0
 ------------------------------------
+Mon Apr  9 07:42:53 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	OP.py 
+Log Message:
+handle dup_top statement
+------------------------------------
+Mon Apr  9 07:44:17 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+* handle dup_top statement
+* handle stack better when storing values (doesn't crash on things now)
+* remove fixme and fix code to do >> instead of /
+
+------------------------------------
+Mon Apr  9 08:11:12 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	printer.py 
+Log Message:
+get to work w/new structure
+------------------------------------
+Mon Apr  9 09:01:18 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+store a ptr back to the module in a class
+------------------------------------
+Mon Apr  9 09:03:24 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+hack in a change to support from xxx import yyy for base classes to remove __init__() not called warning
+------------------------------------
+Mon Apr  9 09:23:09 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Log Message:
+Directory /cvsroot/pychecker/pychecker/test_input added to the repository
+
+------------------------------------
+Mon Apr  9 09:28:43 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	README index.html 
+Removed Files:
+	test.py test2.py 
+Log Message:
+move tests to their own sub-dir
+------------------------------------
+Mon Apr  9 09:28:43 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	.cvsignore test1.py test2.py test3.py 
+Log Message:
+move tests to their own sub-dir
+------------------------------------
+Tue Apr 10 10:04:14 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	test2.py test3.py 
+Added Files:
+	test4.py 
+Log Message:
+add doc strings for tests that produce warnings, add new test(4)
+------------------------------------
+Tue Apr 10 10:18:13 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+try to get import/from import to work w/classes and checking for __init__ calls
+------------------------------------
+Tue Apr 10 10:25:39 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+make failed imports a warning too
+------------------------------------
+Tue Apr 10 10:53:17 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+make sure '.' is in python path so you don't have to specify in env't
+------------------------------------
