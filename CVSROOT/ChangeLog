@@ -1268,3 +1268,519 @@ Added Files:
 Log Message:
 add doc about .rc file, prepare for 0.4 release, add more contact info
 ------------------------------------
+Mon Apr 23 17:35:35 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+print the operation, operand, etc before finding out which op this is, so we only have to do twice, not for each op
+------------------------------------
+Tue Apr 24 09:19:09 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	index.html README 
+Log Message:
+update description to make more clear
+------------------------------------
+Tue Apr 24 09:53:20 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	test11.py 
+Log Message:
+fix crash on code like:  [1].index(i)
+------------------------------------
+Tue Apr 24 09:53:20 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+fix crash on code like:  [1].index(i)
+------------------------------------
+Tue Apr 24 11:15:07 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+[#418595] '.py' is a suffix, not a prefix, change var name :-)
+------------------------------------
+Tue Apr 24 11:58:20 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+[#418593] flattenList stopped processing list after first sub-list
+------------------------------------
+Wed Apr 25 11:06:23 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	setup.py VERSION 
+Log Message:
+prepare for next version
+------------------------------------
+Wed Apr 25 11:08:32 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG KNOWN_BUGS TODO warn.py 
+Log Message:
+Overhaul internal stack handling so we can look for more problems, fix spurious Base class __init__ not called
+------------------------------------
+Wed Apr 25 11:08:43 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Added Files:
+	Stack.py 
+Log Message:
+Overhaul internal stack handling so we can look for more problems
+------------------------------------
+Wed Apr 25 11:59:00 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+don't say imported module x.y.z not used if it is a base class
+------------------------------------
+Wed Apr 25 11:59:00 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test12.py 
+Log Message:
+don't say imported module x.y.z not used if it is a base class
+------------------------------------
+Wed Apr 25 12:19:47 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	checker.py TODO 
+Log Message:
+warn about file not found, insert, rather than append to sys.path so modules aren't masked in appropriately (mark favas)
+------------------------------------
+Wed Apr 25 13:03:15 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	warn.py Config.py CHANGELOG pycheckrc 
+Log Message:
+Add option to report all global warnings, not just first
+------------------------------------
+Wed Apr 25 13:03:15 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test13.py 
+Log Message:
+Add option to report all global warnings, not just first
+------------------------------------
+Fri Apr 27 06:06:58 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	Stack.py 
+Log Message:
+add default values when making constants (), [], {}
+------------------------------------
+Fri Apr 27 06:10:06 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+factor out checkGloba() from load/store global, make all constants properly on stack (even empty ones) for (), [], {}
+------------------------------------
+Fri Apr 27 07:45:29 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Log Message:
+Directory /cvsroot/pychecker/pychecker/test_expected added to the repository
+
+------------------------------------
+Fri Apr 27 08:27:31 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+don't leak files if there was an exception doing imp.load_module, also check checker files, it's not enough to check if module is in sys.modules, we need to check that we haven't checked this module before returning
+------------------------------------
+Fri Apr 27 08:29:35 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+can't just assume 2 elements on stack when comparing stuff, we may have 1 or none, factor out code complexity checks, cleans up code
+------------------------------------
+Fri Apr 27 08:36:20 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Added Files:
+	test_check.sh 
+Log Message:
+add test script & expected output)
+------------------------------------
+Fri Apr 27 08:36:20 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test1 test10 test11 test12 test13 test2 test3 test4 test5 
+	test6 test7 test8 test9 
+Log Message:
+add test script & expected output)
+------------------------------------
+Fri Apr 27 10:10:46 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Log Message:
+Directory /cvsroot/pychecker/pychecker/pychecker added to the repository
+
+------------------------------------
+Fri Apr 27 10:20:31 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	.cvsignore CHANGELOG TODO 
+Removed Files:
+	Config.py OP.py Stack.py checker.py printer.py warn.py 
+Log Message:
+re-org src, move *.py down into pychecker subdir so there is no more name conflicts
+------------------------------------
+Fri Apr 27 10:20:31 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Added Files:
+	.cvsignore Config.py OP.py Stack.py __init__.py checker.py 
+	printer.py warn.py 
+Log Message:
+re-org src, move *.py down into pychecker subdir so there is no more name conflicts
+------------------------------------
+Fri Apr 27 10:36:10 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	index.html 
+Log Message:
+re-org src, move *.py down into pychecker subdir so there is no more name conflicts
+------------------------------------
+Fri Apr 27 13:42:41 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	test_check.sh 
+Log Message:
+update test script w/new src location
+------------------------------------
+Fri Apr 27 13:43:13 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+steal the main code by calling compile() on the file
+------------------------------------
+Sat Apr 28 06:52:37 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	test_check.sh 
+Log Message:
+write import errors (and Processing ...) to stderr, add gtk stuff to blacklist, requests from Nicolas Chauvat
+------------------------------------
+Sat Apr 28 06:52:37 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py checker.py 
+Log Message:
+write import errors (and Processing ...) to stderr, add gtk stuff to blacklist, requests from Nicolas Chauvat
+------------------------------------
+Sun Apr 29 13:03:11 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	README 
+Log Message:
+update READNE w/new src location
+------------------------------------
+Mon Apr 30 12:27:44 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+add TODOs from eric
+------------------------------------
+Mon Apr 30 12:28:46 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+make a FakeFunction class to look like the real builtin function for checking main code
+------------------------------------
+Sat May 19 14:56:54 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+fix checker to not find files in checker before user files (like warn.py)
+------------------------------------
+Sat May 19 14:57:22 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	test_check.sh 
+Log Message:
+print the tests that fail
+------------------------------------
+Sat May 19 16:21:54 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+add to todo -- find files in standard library before local file
+------------------------------------
+Sat May 19 16:31:04 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	test_check.sh 
+Log Message:
+Don't say test failed if there's no expected results, print warning
+
+------------------------------------
+Sat May 19 16:34:22 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	test_check.sh 
+Log Message:
+When no expected results warnings, print warning at end
+
+------------------------------------
+Sat May 19 16:40:16 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+* Don't warn about unused variables if their name == '_'
+* create utility function _updateFunctionWarnings() for checking functions
+	and storing results -- will be used for module level checking
+
+------------------------------------
+Mon May 21 19:48:34 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py 
+Log Message:
+put blacklist default value on new line, easier to read
+------------------------------------
+Tue May 22 19:37:28 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG KNOWN_BUGS TODO 
+Log Message:
+* Check code at module scope
+* Change some warnings to reflect that module scope code is checked
+* Use real line #s for global defintions (global vars & imports)
+* Make _startswith() since there isn't a str func in Python 1.5 :-(
+* Handle STORE_NAME op
+* Remove unused warn._printStack()
+* Need to rewind file to beginning before calling compile()
+* Don't produce unused local variable warning if variable name == '_'
+
+------------------------------------
+Tue May 22 19:37:28 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	OP.py checker.py warn.py 
+Log Message:
+* Check code at module scope
+* Change some warnings to reflect that module scope code is checked
+* Use real line #s for global defintions (global vars & imports)
+* Make _startswith() since there isn't a str func in Python 1.5 :-(
+* Handle STORE_NAME op
+* Remove unused warn._printStack()
+* Need to rewind file to beginning before calling compile()
+* Don't produce unused local variable warning if variable name == '_'
+
+------------------------------------
+Tue May 22 19:37:28 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Modified Files:
+	test1 test2 test9 
+Added Files:
+	test14 
+Log Message:
+* Check code at module scope
+* Change some warnings to reflect that module scope code is checked
+* Use real line #s for global defintions (global vars & imports)
+* Make _startswith() since there isn't a str func in Python 1.5 :-(
+* Handle STORE_NAME op
+* Remove unused warn._printStack()
+* Need to rewind file to beginning before calling compile()
+* Don't produce unused local variable warning if variable name == '_'
+
+------------------------------------
+Tue May 22 19:37:28 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test14.py 
+Log Message:
+* Check code at module scope
+* Change some warnings to reflect that module scope code is checked
+* Use real line #s for global defintions (global vars & imports)
+* Make _startswith() since there isn't a str func in Python 1.5 :-(
+* Handle STORE_NAME op
+* Remove unused warn._printStack()
+* Need to rewind file to beginning before calling compile()
+* Don't produce unused local variable warning if variable name == '_'
+
+------------------------------------
