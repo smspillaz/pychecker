@@ -4505,3 +4505,14 @@ Added Files:
 Log Message:
 Fix access to builtin module attributes
 ------------------------------------
+Sun Jul 22 10:13:46 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG VERSION pycheckrc setup.py 
+Log Message:
+bump version for release
+------------------------------------
