@@ -158,3 +158,185 @@ Added Files:
 Log Message:
 add a changelog
 ------------------------------------
+Wed Apr 11 12:45:10 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO checker.py warn.py 
+Added Files:
+	Config.py 
+Log Message:
+process cmd line args for cfg
+------------------------------------
+Wed Apr 11 13:05:08 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+add patch from Jeff Collins to allow passing of a module or package to checker too
+------------------------------------
+Wed Apr 11 14:07:26 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+change loadList to stack here too
+------------------------------------
+Wed Apr 11 14:10:25 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	Config.py warn.py 
+Log Message:
+* allow passing some classes to warning c'tor and pulling out
+  filename & line number from classes, this shortens lines and
+  makes easier to read, plus more likely to get caller params right
+* implement checking for unused local variables, then remove a few :-)
+
+------------------------------------
+Wed Apr 11 15:01:12 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	Config.py OP.py warn.py 
+Log Message:
+don't warn about unused locals for:  a, b = func() 
+------------------------------------
+Wed Apr 11 15:10:52 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	Config.py 
+Log Message:
+tweak usage msg
+------------------------------------
+Wed Apr 11 15:16:16 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+update TODO
+------------------------------------
+Wed Apr 11 21:27:56 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+line is null in some cases (no class doc), set it to 1
+------------------------------------
+Wed Apr 11 21:28:45 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	Config.py 
+Log Message:
+show that [] is the default value in usage()
+------------------------------------
+Wed Apr 11 21:29:23 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	MAINTAINERS 
+Log Message:
+add jeff collins as a contributor
+------------------------------------
+Wed Apr 11 22:23:14 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	Config.py 
+Log Message:
+handle getopt return args right, dict -> options
+------------------------------------
+Wed Apr 11 22:24:00 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Added Files:
+	KNOWN_BUGS VERSION 
+Log Message:
+add known bugs/problems and version
+------------------------------------
+Thu Apr 12 06:48:47 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	Config.py checker.py warn.py 
+Log Message:
+get to work w/python 1.5.2 again
+------------------------------------
+Thu Apr 12 06:48:47 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	__init__.py 
+Log Message:
+get to work w/python 1.5.2 again
+------------------------------------
+Thu Apr 12 07:01:42 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Modified Files:
+	test3.py test4.py 
+Log Message:
+update tests to work w/both python 1.5.2 and 2.0
+------------------------------------
+Thu Apr 12 07:15:00 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	VERSION 
+Log Message:
+make 0.2.5 mini-release
+------------------------------------
