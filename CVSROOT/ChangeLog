@@ -147,3 +147,14 @@ Modified Files:
 Log Message:
 make sure '.' is in python path so you don't have to specify in env't
 ------------------------------------
+Tue Apr 10 11:03:35 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Added Files:
+	CHANGELOG 
+Log Message:
+add a changelog
+------------------------------------
