@@ -3348,3 +3348,316 @@ Modified Files:
 Log Message:
 ignore return types we can't check, remove unused local var
 ------------------------------------
+Mon Jul  9 19:28:23 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	README index.html 
+Log Message:
+update, add links to current cvs versions of changelog, todo, and known bugs.
+------------------------------------
+Mon Jul  9 19:38:02 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	README index.html 
+Log Message:
+spell dependencies write
+------------------------------------
+Mon Jul  9 20:00:56 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	README index.html 
+Log Message:
+cleanup types of warnings list
+------------------------------------
+Tue Jul 10 19:38:05 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	function.py warn.py 
+Log Message:
+add variable used before being set
+------------------------------------
+Tue Jul 10 19:38:05 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test33.py 
+Log Message:
+add variable used before being set
+------------------------------------
+Tue Jul 10 19:38:05 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test33 
+Log Message:
+add variable used before being set
+------------------------------------
+Tue Jul 10 19:38:05 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+add variable used before being set
+------------------------------------
+Tue Jul 10 19:50:51 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	README index.html 
+Log Message:
+add variable used before being set
+------------------------------------
+Tue Jul 10 20:40:37 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+fix used before set warnings for variables that were set when unpacking tuples; add beginnings of checking if object really has attribute being used
+------------------------------------
+Tue Jul 10 20:40:46 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+update from a while ago
+------------------------------------
+Tue Jul 10 20:47:00 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py function.py 
+Log Message:
+fix more used before set warnings for variables that were set when unpacking tuples
+------------------------------------
+Wed Jul 11 17:27:30 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+cleanup, prepare for better import handling
+------------------------------------
+Wed Jul 11 18:04:35 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO pycheckrc 
+Log Message:
+update
+------------------------------------
+Wed Jul 11 18:24:11 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py Config.py 
+Log Message:
+Add config option to disable unused imports from __init__.py
+------------------------------------
+Wed Jul 11 18:24:11 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+Add config option to disable unused imports from __init__.py
+------------------------------------
+Wed Jul 11 18:38:51 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG pycheckrc 
+Log Message:
+checker -h prints defaults after processing .pycheckrc file
+------------------------------------
+Wed Jul 11 18:38:51 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	Config.py 
+Log Message:
+checker -h prints defaults after processing .pycheckrc file
+------------------------------------
+Sun Jul 15 07:57:54 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+update
+------------------------------------
+Sun Jul 15 08:03:41 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	checker.py 
+Log Message:
+make sure to close file from imp.find_module() if we get an exception, add __path__ to default module tokens, add  to path to help importing packages
+------------------------------------
+Sun Jul 15 08:06:35 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+* Improve import warning messages, add from checks
+* simplify getting values to compare
+* if we can't find a class, init identifier, so we don't find func w/same name
+	(in string, there is a function and method w/same name)
+
+------------------------------------
+Sun Jul 15 08:06:36 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_input
+
+Added Files:
+	test34.py 
+Log Message:
+* Improve import warning messages, add from checks
+* simplify getting values to compare
+* if we can't find a class, init identifier, so we don't find func w/same name
+	(in string, there is a function and method w/same name)
+
+------------------------------------
+Sun Jul 15 08:06:36 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/test_expected
+
+Added Files:
+	test34 
+Log Message:
+* Improve import warning messages, add from checks
+* simplify getting values to compare
+* if we can't find a class, init identifier, so we don't find func w/same name
+	(in string, there is a function and method w/same name)
+
+------------------------------------
+Sun Jul 15 08:06:36 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	OP.py warn.py 
+Log Message:
+* Improve import warning messages, add from checks
+* simplify getting values to compare
+* if we can't find a class, init identifier, so we don't find func w/same name
+	(in string, there is a function and method w/same name)
+
+------------------------------------
+Sun Jul 15 08:06:52 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	TODO 
+Log Message:
+update
+------------------------------------
+Mon Jul 16 17:55:37 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker/pychecker
+
+Modified Files:
+	warn.py 
+Log Message:
+#441844 fix emacs syntax highlighting thanks to tom good
+------------------------------------
+Mon Jul 16 18:10:15 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+update
+------------------------------------
+Mon Jul 16 18:16:20 PDT 2001
+
+Change made by nnorwitz
+
+Update of /cvsroot/pychecker/pychecker
+
+Modified Files:
+	setup.py VERSION 
+Log Message:
+bump version
+------------------------------------
