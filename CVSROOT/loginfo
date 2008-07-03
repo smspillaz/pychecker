@@ -25,5 +25,5 @@
 # or
 #DEFAULT (echo ""; id; echo %{sVv}; date; cat) >> $CVSROOT/CVSROOT/commitlog
 #DEFAULT ( cd $CVSROOT/CVSROOT ; co -u cvs-loginfo.sh > /dev/null 2>&1 ; ./cvs-loginfo.sh $USER %s %V %v )
-CVSROOT /cvsroot/sitedocs/CVSROOT/cvstools/syncmail %{sVv} nnorwitz@users.sourceforge.net ericnewton@users.sourceforge.net thomas@apestaart.org
-DEFAULT /cvsroot/sitedocs/CVSROOT/cvstools/syncmail %{sVv} pychecker-checkins@lists.sourceforge.net nnorwitz@users.sourceforge.net johnshue@users.sourceforge.net thomas@apestaart.org
+CVSROOT /cvsroot/sitedocs/CVSROOT/cvstools/syncmail -u %{sVv} nnorwitz@users.sourceforge.net ericnewton@users.sourceforge.net thomas@apestaart.org
+DEFAULT /cvsroot/sitedocs/CVSROOT/cvstools/syncmail -u %{sVv} pychecker-checkins@lists.sourceforge.net nnorwitz@users.sourceforge.net johnshue@users.sourceforge.net thomas@apestaart.org
