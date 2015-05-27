@@ -1,8 +1,1 @@
-build
-MANIFEST
-release.txt
-tmp
-ckstdlib.sh
-stdlib.out
-.pc
-*.gvim
+*.pyc
